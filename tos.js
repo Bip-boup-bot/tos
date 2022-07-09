@@ -4,7 +4,6 @@ const data = [
 ];
 
 for (let i = 0; i < data.length; i++) {
-  console.log(data[i].theme);
   var da = data[i]
   document.getElementById('tos').innerHTML += '<h1>' + da.theme + '</h1>' + '<p>' + da.desc + '</p>';
 }
